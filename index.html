@@ -78,6 +78,21 @@ border-radius: 111px
 
 }
 
+.educación .año{
+  min-width: 20%;
+  float: left;
+
+}
+
+.educación .párrafo{
+  background-color: lightgray;
+  border-radius: 1px 50px 30px 15px;
+  box-sizing: border-box;
+  float: left;
+  min-width: 80%;
+}
+
+
 .skills{
   font-family: 'Titillium Web', sans-serif;
   padding-left: 5%;
@@ -107,6 +122,7 @@ border-radius: 111px
   padding-left: 5%;
   color: white;
   font-weight: bold;
+
 }
 
 .experiencia{
@@ -114,17 +130,19 @@ border-radius: 111px
   padding-left: 5%;
   box-sizing: border-box;
   font-size: 2.4vh;
-  display: table-cell;
+  display: block;
 
 }
 
 .experiencia .año{
-  display: table-cell;
   float: left;
+  width: 20%;
 }
 
-.párrafo{
+.experiencia .párrafoex{
   padding-left: 20%;
+  float: left;
+  width: 80%
 }
 
 .idiomas{
@@ -277,11 +295,22 @@ border-radius: 111px
       </div>
 
       <div class="col-sm-10 col-md-10 col-lg-6 educación">
-        <h1>Educación</h1>
-        <p>En curso – Desarrolladora Full Stack – Desafío Latam.</p>
-        <p>2013 - Diplomado en Comunicación Estratégica - Universidad UNIACC.</p>
-        <p>2009 a 2012 - Periodista, Licenciada en Comunicación Social - Universidad UNIACC. Escogida y galardonada como la mejor alumna de mi generación.</p>
-        <p>2008 a 2009 - Bachiller en Comunicación - Universidad UNIACC.</p>
+        <div class=""><h1>Educación</h1></div>
+        <div class="año"><h5>2017</h5>
+        </div>
+          <div class="párrafo"><p>Desarrolladora Full Stack – Desafío Latam.</p>
+          </div><br>
+        <div class="año"><h5>2013</h5>
+        </div>
+          <div class="párrafo"><p>Diplomado en Comunicación Estratégica - Universidad UNIACC.</p>
+          </div><br>
+        <div class="año"><h5>2009 a 2012</h5>
+          </div>
+          <div class="párrafo"><p>Periodista, Licenciada en Comunicación Social - Universidad UNIACC. Escogida y galardonada como la mejor alumna de mi generación.</p>
+          </div><br>
+        <div class="año"><h5>2008 a 2009</h5></div>
+          <div class="párrafo"><p>Bachiller en Comunicación - Universidad UNIACC.</p>
+          </div><br>
       </div>
 
       <div class="col-sm-10 col-md-10 col-lg-4 skills">
@@ -296,13 +325,14 @@ border-radius: 111px
       <div class="col-sm-10 col-md-10 col-lg-6 experiencia">
         <div class=""> <h1>Experiencia</h1>  </div>
         <div class="año"><h5>2014 a 2017<h5></div>
-          <div class="párrafo"><p>DIRECTORA DE COMUNICACIONES - SOCIALAB <br> Encargada de dirigir al equipo de Comunicaciones en
+        <div class="párrafoex"><p>DIRECTORA DE COMUNICACIONES - SOCIALAB <br> Encargada de dirigir al equipo de Comunicaciones en
           Chile, compuesto por una Diseñadora Gráfica, una Audiovisual y una Community Manager. Junto a mi equipo también
           entregamos las directrices a las oficinas latinoamericanas.</p></div>
           <br>
-        <h5>Octubre 2012 - enero 2013</h5>
-        <p>EDITORA DE CONTENIDOS - AGENCIA DIGITAL 4SALE <br>Creación de contenidos periodísticos, manejo de
+        <div class="año"><h5>2012 a 2013</h5></div>
+        <div class="párrafoex"><p>EDITORA DE CONTENIDOS - AGENCIA DIGITAL 4SALE <br>Creación de contenidos periodísticos, manejo de
           Wordpress, blogs, páginas web, administradores y redes sociales de diversas marcas como Saxoline, Yamaha, Renault, Bion 3, Quix, entre otras.</p>
+        </div>
       </div>
 
       <div class="col-sm-10 col-md-10 col-lg-4 idiomas">
