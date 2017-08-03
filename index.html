@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Curriculum Fernanda Vilches</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <style media="screen">
 
     .row{
@@ -15,19 +16,140 @@ clear: both;
 .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10,
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5,
 .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10{
-float: left;
+float:left;
+}
+
+body{
+  margin: 0;
 }
 
 .imagen-responsive{
-max-width: 100%;}
+max-width: 100%;
+border-radius: 111px
+}
 
 .header{
-  background-color: green;
-  color: white;
+  background-color: white;
+  color: black;
   text-align: center;
   font-size: 3vh;
-  padding: 5% 0 5% 0;
+  padding: 2% 0 2% 0;
+  font-family: 'Titillium Web', sans-serif;
+
 }
+
+.header span{
+  color: blue;
+  font-weight: bolder;
+}
+
+.separador{
+  background-color: lightgray;
+  max-height: 2%;
+  padding: 0;
+}
+
+.acerca{
+  font-family: 'Titillium Web', sans-serif;
+  padding-left: 5%;
+  box-sizing: border-box;
+  font-size: 2.4vh;
+  display: table-cell;
+
+}
+
+.acerca span{
+  font-weight: bold;
+}
+
+.contacto{
+  font-family: 'Titillium Web', sans-serif;
+  padding-left: 5%;
+  box-sizing: border-box;
+  font-size: 2.4vh;
+}
+
+.educación{
+  font-family: 'Titillium Web', sans-serif;
+  padding-left: 5%;
+  box-sizing: border-box;
+  font-size: 2.4vh;
+  display: table-cell;
+
+}
+
+.skills{
+  font-family: 'Titillium Web', sans-serif;
+  padding-left: 5%;
+  box-sizing: border-box;
+  font-size: 2.4vh;
+}
+
+.cien{
+  background-color: blue;
+  max-width: 80%;
+  padding-left: 5%;
+  color: white;
+  font-weight: bold;
+}
+
+.setenta{
+  background-color: blue;
+  max-width: 50%;
+  padding-left: 5%;
+  color: white;
+  font-weight: bold;
+}
+
+.cincuenta{
+  background-color: blue;
+  max-width: 30%;
+  padding-left: 5%;
+  color: white;
+  font-weight: bold;
+}
+
+.experiencia{
+  font-family: 'Titillium Web', sans-serif;
+  padding-left: 5%;
+  box-sizing: border-box;
+  font-size: 2.4vh;
+  display: table-cell;
+
+}
+
+.experiencia .año{
+  display: table-cell;
+  float: left;
+}
+
+.párrafo{
+  padding-left: 20%;
+}
+
+.idiomas{
+  font-family: 'Titillium Web', sans-serif;
+  padding-left: 5%;
+  box-sizing: border-box;
+  font-size: 2.4vh;
+}
+
+.hobbies{
+  font-family: 'Titillium Web', sans-serif;
+  padding-left: 5%;
+  box-sizing: border-box;
+  font-size: 2.4vh;
+}
+
+.hobbies p{
+  display: inline;
+  padding:0 5% 0 5%;
+  background-color: blue;
+  color: white;
+  box-sizing: border-box;
+  line-height: 200%;
+}
+
 
 @media(max-width: 480px){
 .col-sm-1{
@@ -62,7 +184,7 @@ max-width: 100%;}
 }
 }
 
-@media(max-width:768px){
+@media (min-width:481px)and (max-width:768px){
 .col-md-1{
   width: 10%;
 }
@@ -132,24 +254,67 @@ max-width: 100%;}
 
   <body>
     <div class="row">
-      <div class="col-sm-10 col-md-10 header">
-        <h1>HOLA!<br>ESTE ES UN EJERCICIO DE GRILLAS</h1>
+      <div class="col-sm-10 col-md-10 col-lg-10 header">
+        <img class="imagen-responsive" src="CV.png" alt="Fernanda Vilches">
+        <h1>Hola mi nombre es <span>Fernanda</span> y este es mi Curriculum</h1>
       </div>
 
-      <div class="col-md-3 col-sm-10 columnas">
-        <img class="imagen-responsive"src="stegosaurus.jpeg" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <div class="col-sm-10 col-md-10 col-lg-10 separador">
+        <p></p>
       </div>
 
+      <div class="col-sm-10 col-md-10 col-lg-6 acerca">
+        <h1>Perfil</h1>
+        <p><span>Periodista. Diplomada en Comunicación Estratégica. Especialista en web y Social Media.</span></p>
+        <p>Soy una apasionada por la comunicación y la tecnología. En lo laboral destaco por mi proactividad, capacidad de gestión y liderazgo. Me considero autodidacta y siempre estoy en busca de nuevos aprendizajes que me enriquezcan como persona. Mi tiempo libre lo dedico principalmente al deporte.</p>
+      </div>
 
-    <div class="col-md-3 col-sm-10 columnas">
-        <img class="imagen-responsive" src="stegosaurus.jpeg" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
+      <div class="col-sm-10 col-md-10 col-lg-4 contacto">
+        <h1>Contacto</h1>
+        <h4>E-mail: f.vilchesc@gmail.com</h4>
+        <h4>Teléfono: +569 8469 5555</h4>
+        <h4> <a href="http://bit.ly/2vzhwiW">LinkedIn</a></h4>
+      </div>
 
-    <div class="col-md-3 col-sm-10 columnas">
-        <img class="imagen-responsive" src="stegosaurus.jpeg" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiulgod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-  </div>
+      <div class="col-sm-10 col-md-10 col-lg-6 educación">
+        <h1>Educación</h1>
+        <p>En curso – Desarrolladora Full Stack – Desafío Latam.</p>
+        <p>2013 - Diplomado en Comunicación Estratégica - Universidad UNIACC.</p>
+        <p>2009 a 2012 - Periodista, Licenciada en Comunicación Social - Universidad UNIACC. Escogida y galardonada como la mejor alumna de mi generación.</p>
+        <p>2008 a 2009 - Bachiller en Comunicación - Universidad UNIACC.</p>
+      </div>
 
+      <div class="col-sm-10 col-md-10 col-lg-4 skills">
+        <h1>Skills</h1>
+        <p class="cien">Office</p>
+        <p class="cien">iWork</p>
+        <p class="cien">Social Media</p>
+        <p class="setenta">Wordpress</p>
+        <p class="cincuenta">Htlm</p>
+      </div>
+
+      <div class="col-sm-10 col-md-10 col-lg-6 experiencia">
+        <div class=""> <h1>Experiencia</h1>  </div>
+        <div class="año"><h5>2014 a 2017<h5></div>
+          <div class="párrafo"><p>DIRECTORA DE COMUNICACIONES - SOCIALAB <br> Encargada de dirigir al equipo de Comunicaciones en
+          Chile, compuesto por una Diseñadora Gráfica, una Audiovisual y una Community Manager. Junto a mi equipo también
+          entregamos las directrices a las oficinas latinoamericanas.</p></div>
+          <br>
+        <h5>Octubre 2012 - enero 2013</h5>
+        <p>EDITORA DE CONTENIDOS - AGENCIA DIGITAL 4SALE <br>Creación de contenidos periodísticos, manejo de
+          Wordpress, blogs, páginas web, administradores y redes sociales de diversas marcas como Saxoline, Yamaha, Renault, Bion 3, Quix, entre otras.</p>
+      </div>
+
+      <div class="col-sm-10 col-md-10 col-lg-4 idiomas">
+        <h1>Idiomas</h1>
+        <p>Inglés</p>
+        <p>Español</p>
+      </div>
+
+      <div class="col-sm-10 col-md-10 col-lg-4 hobbies">
+        <h1>Hobbies</h1>
+        <p>Entrenar</p> <p>Leer</p> <p>Escribir</p> <p>Patinar</p> <p>Karaoke</p>
+      </div>
 
   </body>
 </html>
