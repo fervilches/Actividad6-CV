@@ -1,0 +1,258 @@
+.row{
+  clear: both;
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5,
+.col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10,
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
+.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10,
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5,
+.col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10{
+  float:left;
+}
+
+body{
+  margin: 0;
+}
+
+.imagen-responsive{
+  max-width: 100%;
+  border-radius: 111px
+}
+
+.header{
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 2.5vh;
+  padding: 2% 0 2% 0;
+  font-family: 'Titillium Web', sans-serif;
+
+}
+
+.header span{
+  color: blue;
+  font-weight: bolder;
+}
+
+.separador{
+  background-color: lightgray;
+  max-height: 2%;
+  padding: 0;
+}
+
+.acerca{
+  font-family: 'Titillium Web', sans-serif;
+  padding-left: 5%;
+  box-sizing: border-box;
+  font-size: 2.2vh;
+  display: table-cell;
+
+}
+
+.acerca span{
+  font-weight: bold;
+}
+
+.contacto{
+  font-family: 'Titillium Web', sans-serif;
+  padding-left: 5%;
+  box-sizing: border-box;
+  font-size: 2.2vh;
+}
+
+.educación{
+  font-family: 'Titillium Web', sans-serif;
+  padding-left: 5%;
+  font-size: 2.2vh;
+  display: table-cell;
+  box-sizing: border-box;
+
+}
+
+.educación .año{
+  float: left;
+  display: table-cell;
+  margin-right: 5%;
+}
+
+.educación .párrafo{
+  background-color: lightgray;
+  border-radius: 0px 50px 30px 15px;
+  display: table-cell;
+
+}
+
+
+.skills{
+  font-family: 'Titillium Web', sans-serif;
+  padding-left: 5%;
+  box-sizing: border-box;
+  font-size: 2.2vh;
+}
+
+.cien{
+  background-color: blue;
+  max-width: 80%;
+  padding-left: 5%;
+  color: white;
+  font-weight: bold;
+}
+
+.setenta{
+  background-color: blue;
+  max-width: 50%;
+  padding-left: 5%;
+  color: white;
+  font-weight: bold;
+}
+
+.cincuenta{
+  background-color: blue;
+  max-width: 30%;
+  padding-left: 5%;
+  color: white;
+  font-weight: bold;
+
+}
+
+.experiencia{
+  font-family: 'Titillium Web', sans-serif;
+  padding-left: 5%;
+  box-sizing: border-box;
+  font-size: 2.2vh;
+  display: block;
+
+}
+
+.experiencia .añoex{
+  float: left;
+  display: table-cell;
+  margin-right: 5%;
+}
+
+.experiencia .párrafoex{
+  display: table-cell;
+}
+
+.idiomas{
+  font-family: 'Titillium Web', sans-serif;
+  padding-left: 5%;
+  box-sizing: border-box;
+  font-size: 2.2vh;
+}
+
+.hobbies{
+  font-family: 'Titillium Web', sans-serif;
+  padding-left: 5%;
+  box-sizing: border-box;
+  font-size: 2.2vh;
+}
+
+.hobbies p{
+  display: inline;
+  padding:0 5% 0 5%;
+  background-color: blue;
+  color: white;
+  box-sizing: border-box;
+  line-height: 200%;
+}
+
+
+@media(max-width: 480px){
+  .col-sm-1{
+    width: 10%;
+  }
+  .col-sm-2{
+    width: 20%;
+  }
+  .col-sm-3{
+    width: 33%;
+  }
+  .col-sm-4{
+    width: 40%;
+  }
+  .col-sm-5{
+    width: 50%;
+  }
+  .col-sm-6{
+    width: 60%;
+  }
+  .col-sm-7{
+    width: 70%;
+  }
+  .col-sm-8{
+    width: 80%;
+  }
+  .col-sm-9{
+    width: 90%;
+  }
+  .col-sm-10{
+    width: 100%;
+  }
+}
+
+@media (min-width:481px)and (max-width:768px){
+  .col-md-1{
+    width: 10%;
+  }
+  .col-md-2{
+    width: 20%;
+  }
+  .col-md-3{
+    width: 33%;
+  }
+  .col-md-4{
+    width: 40%;
+  }
+  .col-md-5{
+    width: 50%;
+  }
+  .col-md-6{
+    width: 60%;
+  }
+  .col-md-7{
+    width: 70%;
+  }
+  .col-md-8{
+    width: 80%;
+  }
+  .col-md-9{
+    width: 90%;
+  }
+  .col-md-10{
+    width: 100%;
+  }
+}
+
+@media(min-width: 769px){
+  .col-lg-1{
+    width: 10%;
+  }
+  .col-lg-2{
+    width: 20%;
+  }
+  .col-lg-3{
+    width: 33%;
+  }
+  .col-lg-4{
+    width: 40%;
+  }
+  .col-lg-5{
+    width: 50%;
+  }
+  .col-lg-6{
+    width: 60%;
+  }
+  .col-lg-7{
+    width: 70%;
+  }
+  .col-lg-8{
+    width: 80%;
+  }
+  .col-lg-9{
+    width: 90%;
+  }
+  .col-lg-10{
+    width: 100%;
+  }
+}
